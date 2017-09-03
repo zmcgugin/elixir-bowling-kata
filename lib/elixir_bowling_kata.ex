@@ -1,18 +1,6 @@
 defmodule ElixirBowlingKata do
-  @moduledoc """
-  Documentation for ElixirBowlingKata.
-  """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> ElixirBowlingKata.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def bowl(frames) do
+    0
   end
 end

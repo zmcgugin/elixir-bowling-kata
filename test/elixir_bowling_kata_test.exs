@@ -12,4 +12,9 @@ defmodule ElixirBowlingKataTest do
     assert ElixirBowlingKata.bowl(frames) == 17
   end
 
+  test "bowl should add the following frame to a spair" do
+    frames = [[5,5], [3,0]]
+    assert ElixirBowlingKata.bowl(frames) == 16
+  end
+
 end
